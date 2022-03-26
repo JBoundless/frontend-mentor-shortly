@@ -1,0 +1,9 @@
+form {
+  padding: 10px;
+}
+
+.short-url {
+  padding: 25px;
+  background-color: white;
+  box-shadow: 10px 3px 10px rgb(0 0 0 / 0.2);
+}

@@ -1,0 +1,39 @@
+.nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.NavBar-Left {
+  display: inline-flex;
+}
+
+.NavBar-Right {
+  align-self: right;
+  align-content: right;
+  align-items: right;
+}
+
+a {
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.signup-button {
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 20px;
+  padding: 8px;
+  width: 80px;
+  color: white;
+  font-family: Poppins;
+  box-shadow: none;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
